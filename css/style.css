@@ -1,0 +1,76 @@
+
+body::before {
+content: "";
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-image: url('../img/fundo.jpg'); /* usa ../ se seu style.css estiver dentro de /css */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+opacity: 0.15;
+z-index: -1;
+margin: 0;
+padding: 0; 
+}
+
+body {
+min-height: 100vh;
+position: relative;
+z-index: 0;
+background-color: #fff;
+}
+.navbar-brand {
+font-weight: bold;
+color: #d16ba5 !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+text-decoration: none;
+color: #d16ba5 !important;
+}
+
+.btn-primary {
+background-color: #d16ba5;
+border-color: #d16ba5;
+}
+
+.btn-primary:hover {
+background-color: #a84b85;
+border-color: #a84b85;
+}
+
+.card-title {
+color: #d16ba5;
+font-weight: bold;
+}
+
+.card img {
+max-height: 300px;
+object-fit: cover;
+}
+
+footer {
+background-color: #ffffff98;
+color: #888;
+font-size: 0.9rem;
+border-top: 1px solid #ddd;
+margin-top: auto;
+width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-color: rgba(0, 0, 0, 0.6); 
+border-radius: 50%;
+background-size: 100% 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+filter: none !important;
+}
